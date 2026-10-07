@@ -1,0 +1,28 @@
+# Environments & Secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Runtime & Chat History
+chat_history.json
+**/chat_history.json
+*.log
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
